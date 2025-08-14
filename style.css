@@ -1,2 +1,17 @@
-/* Arquivo de estilo CSS do projeto Lista de Tarefas */
-/* Pode ser preenchido futuramente para melhorar o visual da aplicação */
+// Seleciona a lista de tarefas
+const lista = document.createElement('ul');
+document.body.appendChild(lista);
+
+// Função para adicionar tarefa
+function adicionarTarefa(texto) {
+  const item = document.createElement('li');
+  item.textContent = texto;
+
+  // Botão para remover tarefa
+  const botao = document.createElement('button');
+  botao.textContent = 'Remover';
+  botao.onclick = () => lista.removeChild(item);
+
+  item.appendChild(botao);
+  lista.appendChild(item);
+}
