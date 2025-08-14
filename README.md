@@ -3,7 +3,7 @@ Lista de Tarefas
 Descrição do Projeto
 Projeto simples de uma Lista de Tarefas (To-Do List) criado como atividade de estudo. Permite ao usuário adicionar tarefas, marcar como concluídas e visualizar a lista atual.
 
-ecnologias Utilizadas
+Tecnologias Utilizadas
 HTML5
 CSS3
 JavaScript
